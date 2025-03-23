@@ -41,13 +41,13 @@ There are several ways you can contribute to **LiteXfer**:
 
 2. **Clone Your Fork**  
    ```bash
-   git clone https://github.com/rcallaby/SimpleServ.git
-   cd SimpleServ
+   git clone https://github.com/rcallaby/LiteXfer.git
+   cd LiteXfer
    ```
 
 3. **Set Upstream Repository**  
    ```bash
-   git remote add upstream https://github.com/rcallaby/SimpleServ.git
+   git remote add upstream https://github.com/rcallaby/LiteXfer.git
    ```
 
 4. **Install Dependencies**  

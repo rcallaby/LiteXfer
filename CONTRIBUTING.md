@@ -12,7 +12,6 @@ Thank you for considering contributing to **LiteXFer**! Your input and expertise
 4. [Development Guidelines](#development-guidelines)  
 5. [Reporting Issues](#reporting-issues)  
 6. [Submitting Pull Requests](#submitting-pull-requests)  
-7. [Style Guide](#style-guide)  
 
 ---
 
@@ -139,18 +138,6 @@ If you encounter a problem, please [open an issue](https://github.com/rcallaby/L
 6. **Review and Merge**
    - Address feedback promptly.
    - Squash commits if requested.
-
----
-
-## Style Guide
-
-- **Language Standard:** C++17 or newer.  
-- **Formatting:** Use [clang-format](https://clang.llvm.org/docs/ClangFormat.html) with the provided `.clang-format` file.  
-- **Naming Conventions:**  
-  - Classes: `PascalCase`
-  - Functions: `camelCase`
-  - Variables: `snake_case`
-- **Comments:** Use Doxygen-style comments for all public APIs.
 
 ---
 

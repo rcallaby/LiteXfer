@@ -14,11 +14,11 @@ Please provide a clear and concise description of what this pull request adds, f
 
 Please check all options that apply:
 
-- [ ] 🐛 Bug fix (non-breaking change that fixes an issue)
-- [ ] ✨ New feature (non-breaking change that adds functionality)
-- [ ] ⚠️ Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] 🧹 Code cleanup/refactoring
-- [ ] 📚 Documentation update
+- [ ] Bug fix (non-breaking change that fixes an issue)
+- [ ] New feature (non-breaking change that adds functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] Code cleanup/refactoring
+- [ ] Documentation update
 
 ---
 
@@ -35,10 +35,10 @@ Please describe how you tested your changes to ensure functionality. Provide det
 
 Please ensure your pull request meets the following criteria:
 
-- [ ] Code follows the project’s [coding style guidelines](./CONTRIBUTING.md).
+- [ ] Code follows the project’s [coding style guidelines](CONTRIBUTING.md).
 - [ ] Changes have been tested thoroughly.
 - [ ] Associated documentation has been updated (if needed).
-- [ ] Commits are well-organized and follow [Git commit message guidelines](https://chris.beams.io/posts/git-commit/).
+- [ ] Commits are well-organized
 - [ ] All dependencies are up to date.
 - [ ] New and existing unit tests pass locally with these changes.
 

@@ -1,0 +1,30 @@
+name: Build LiteXfer (Linux)
+
+on:
+  push:
+    branches: [ build ]
+  pull_request:
+    branches: [ build ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential cmake
+
+      - name: Configure project
+        run: cmake -S . -B build
+
+      - name: Build project
+        run: cmake --build build -- -j$(nproc)
+
+      # (Optional) If you add tests later:
+      # - name: Run tests
+      #   run: ctest --test-dir build
